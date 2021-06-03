@@ -1,5 +1,4 @@
 const router = require('express').Router();
-module.exports = router;
 
 router.get('/', async (req, res) => {
     try {
@@ -9,3 +8,5 @@ router.get('/', async (req, res) => {
         res.status(500).json(err);
     }
 });
+
+module.exports = router;
