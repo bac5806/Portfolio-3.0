@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS portfolio_db;
+CREATE DATABASE techblog_db;
